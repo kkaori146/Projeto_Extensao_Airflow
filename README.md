@@ -1,13 +1,13 @@
-#Projeto Final Extensão-Airflow
+# Projeto Final Extensão-Airflow
 <hr>
 
-##Objetivo:
+## Objetivo:
 <hr>
 - Criação de um projeto com Airflow, utilizando os conhecimentos adquiridos durante o curso de extensão de 15 dias oferecido pela SoulCode Academy.
 - Foi realizado um tratamento e interpretação preliminar visando a utilização do Airflow.
 <hr>
 
-##Fontes:
+## Fontes:
 <hr>
 - ANP
 https://www.gov.br/anp/pt-br
@@ -16,7 +16,7 @@ https://www.gov.br/anp/pt-br
 https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <hr>
 
-##Sobre a Escolha do Dataset
+## Sobre a Escolha do Dataset
 <hr>
 - O Dataset traz informações entre os períodos de 2017 a 2022 de empresas, sua localização e a quantidade em m3 de derivados produzidos.
 
@@ -24,7 +24,7 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
     Exemplo: A utilização da Gordura de Boi é feita na produção de combustível para aviões. Algumas empresas como a KLM utiliza biocombustível produzido a partir de gordura de boi em alguns dos seus voos comerciais (atualmente mais de 190 voos).
 <hr>
 
-##Estrutura do docker-compose.yaml
+## Estrutura do docker-compose.yaml
 <hr>
 - Na parte de environment build do Airflow foi adicionado um comando para habilitar o uso do xcom:
 AIRFLOW__CORE__ENABLE_XCOM_PICKLING: 'true'
@@ -35,8 +35,10 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 - Em volumes foi criado os volumes para armazenamento dos dados brutos e tratados:
     - ./dados_brutos:/opt/airflow/dados_brutos
     - ./dados_tratados:/opt/airflow/dados_tratados
+
 <hr>
-##Estrutura da DAG
+
+## Estrutura da DAG
 <hr>
 - Inicialmente foi feito o import das bibliotecas necessárias;
 - Foi estabelecido um default_args com alguns argumentos;
