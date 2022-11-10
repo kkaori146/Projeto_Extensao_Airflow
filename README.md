@@ -110,7 +110,7 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <br>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/201169789-9d448bdc-bb7a-4539-967f-695d3a77125e.png" width=550px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201169789-9d448bdc-bb7a-4539-967f-695d3a77125e.png" width=880px > </div>
 <br>
 
 
@@ -134,7 +134,7 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <br>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/201169796-bec7e7fd-a579-44f6-9ef5-6f6eac31bd6a.png" width=560px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201169796-bec7e7fd-a579-44f6-9ef5-6f6eac31bd6a.png" width=680px > </div>
 <br>
 
 ## Carregar o Airflow
@@ -163,7 +163,7 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/201169819-f6a0bdcf-ae5f-4413-a68e-c9b609b42413.png)" width=800px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201171982-8dfe7820-00cc-43c2-8770-01daa38fe50d.png)" width=800px > </div>
 <br>
 
 ## Resultados
@@ -194,10 +194,11 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <br>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/201169782-0ec887e1-8116-4c17-8ee6-f9aabd6389c9.png" width=1500px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201169782-0ec887e1-8116-4c17-8ee6-f9aabd6389c9.png" width=480px > </div>
 
 <br>
 
+<hr/>
 
 
 
