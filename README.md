@@ -44,7 +44,7 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 - Import das bibliotecas necessárias;
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200975245-7d061f5f-e677-4255-9248-33b845e48d86.gif width=340px ></div>
+<img src="https://user-images.githubusercontent.com/83531935/200978277-51073d0a-9266-4051-ab51-6581db362734.png width=340px ></div>
 
 - Definição de alguns argumentos;
 
