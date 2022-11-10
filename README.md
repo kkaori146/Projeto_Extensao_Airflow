@@ -1,7 +1,7 @@
 # Projeto Final Extensão-Airflow
 
 <div align="left">
-<img src="https://user-images.githubusercontent.com/83531935/200970210-c026031f-0b57-4076-ad34-b7d75c824677.gif" width=700px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200985753-cd457113-e248-4e38-be20-212e1db3069e.png" width=200px > </div>
 
 ## Objetivo:
 
