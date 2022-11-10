@@ -1,5 +1,10 @@
 # Projeto Final Extensão-Airflow
- 
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/83531935/200994478-52f2d570-acc6-4b24-8b95-622b39f3d4ab.png" width="100" />
+  <img src="https://user-images.githubusercontent.com/83531935/200994478-52f2d570-acc6-4b24-8b95-622b39f3d4ab.png"" width="100" /> 
+</p>
+
+
 ## Informações Gerais:
 
 - Criação de um projeto com Airflow, utilizando os conhecimentos adquiridos durante o curso de extensão para o Processo Seletivo da Raízen.
