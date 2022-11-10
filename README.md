@@ -85,14 +85,14 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/201082630-600e36fc-6347-4cce-b3e3-ba8d0f3900c8.png" width=950x > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201082630-600e36fc-6347-4cce-b3e3-ba8d0f3900c8.png" width=960x > </div>
 <br>
 
 - A segunda função (tratamento_dados), responsável por ler e tratar os dados
 
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/201083501-410f84df-37f4-4117-9428-8333bb4e1ca9.png" width=950px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201083501-410f84df-37f4-4117-9428-8333bb4e1ca9.png" width=1100px > </div>
 
 <br/>
 
@@ -101,14 +101,14 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <br>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/201094177-8e400350-d82f-4eea-8e96-7c60d9b11de9.png" width=500px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201094177-8e400350-d82f-4eea-8e96-7c60d9b11de9.png" width=550px > </div>
 <br>
 
 - Instanciamento da DAG
 
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200974677-efcf731c-646b-43d0-b6c5-6ced308245a8.gif" width=240px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200974677-efcf731c-646b-43d0-b6c5-6ced308245a8.gif" width=280px > </div>
 <br>
 
 - Definição das Tasks
@@ -124,7 +124,7 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <br>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200974686-0b928623-e89f-4f47-8b44-0b7a3e853c53.gif" width=500px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200974686-0b928623-e89f-4f47-8b44-0b7a3e853c53.gif" width=560px > </div>
 <br>
 
 ## Carregar o Airflow
