@@ -1,8 +1,9 @@
 # Projeto Final Extensão-Airflow
  
-## Objetivo:
+## Informações Gerais:
 
-- Criação de um projeto com Airflow, utilizando os conhecimentos adquiridos durante o curso de extensão de 15 dias oferecido pela SoulCode Academy.
+- Criação de um projeto com Airflow, utilizando os conhecimentos adquiridos durante o curso de extensão para o Processo Seletivo da Raízen.
+- Duração da extensão de 15 dias oferecido pela SoulCode Academy.
 - Foi realizado um tratamento e interpretação preliminar visando a utilização do Airflow.
 
 ## Fontes:
@@ -26,8 +27,10 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200990110-1c050634-3048-4634-af85-6d2bf7599bc7.png" width=300px > </div>
 
+- Arquivo do colab utilizado no projeto
+
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200990805-9dfd1925-8f86-489c-a584-513a0f739733.png" width=300px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200991672-821482a5-0aec-46bb-9c82-58e5dbe4e3b0.png" width=1000px > </div>
 
 ## Estrutura do docker-compose.yaml
 
