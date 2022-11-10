@@ -44,7 +44,7 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 - Import das bibliotecas necessárias;
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200978277-51073d0a-9266-4051-ab51-6581db362734.png" width=360px> </div>
+<img src="https://user-images.githubusercontent.com/83531935/200978277-51073d0a-9266-4051-ab51-6581db362734.png" width=380px> </div>
           
 - Definição de alguns argumentos
 
@@ -54,12 +54,12 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 - A primeira função (extrair_dados), responsável por extrair os dados pela URL informada e guardar o dataset sem tratamento dentro da pasta dados_brutos
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200974682-5031ddb7-c1e6-411b-a456-35f388af7b51.gif" width=90000px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200979650-38e853c6-eb52-4f3b-82c4-82c8e50729a1.png" width=1000000px > </div>
 
 - A segunda função (tratamento_dados), responsável por ler e tratar os dados
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200974684-2cb6ad85-641a-486d-8076-aaa88ab7cada.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200974684-2cb6ad85-641a-486d-8076-aaa88ab7cada.gif" width=900px > </div>
 
 - A terceira função (exportacao_dados), converteu o dataset tratado em formato csv e parquet, os quais foram armazenados na pasta de dados_tratados
 
@@ -69,16 +69,27 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 - Instanciamento da DAG
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200974677-efcf731c-646b-43d0-b6c5-6ced308245a8.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200974677-efcf731c-646b-43d0-b6c5-6ced308245a8.gif" width=240px > </div>
 
 - Definição das Tasks
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200975210-3cbdbe30-af6c-492c-8fde-68bab3b763e0.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200975210-3cbdbe30-af6c-492c-8fde-68bab3b763e0.gif" width=340px > </div>
 
 - Definição das Dependências
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200974686-0b928623-e89f-4f47-8b44-0b7a3e853c53.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200974686-0b928623-e89f-4f47-8b44-0b7a3e853c53.gif" width=500px > </div>
+
+## Carregar o Airflow
+
+- Comando para Inicialização rápida do Airflow
+
+**_docker-compose up airflow-init_**
+
+- Comando que agrega, cria e toma as modificações realizadas
+
+**_docker-compose up_**
+
 
 
