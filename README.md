@@ -128,26 +128,41 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <br/>
 
 ## Carregar o Airflow
+
 <br/>
+
 - Comando para Inicialização rápida do Airflow
+
 <br/>
+
 **_docker-compose up airflow-init_**
+
 <br/>
+
 - Comando que agrega, cria e toma as modificações realizadas
 <br/>
+
 **_docker-compose up_**
+
 <br/>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200983371-419d82ac-0cdd-4fee-be84-b94d03d844f9.png" width=800px > </div>
 <br/>
 
 ## Execução das Tasks
+
 <br/>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200989438-29a8b688-9e4b-48e6-995b-a0d231beac4a.png" width=800px > </div>
 <br/>
 
 ## Resultados
+
+<br/>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/201090570-c2c4b936-772c-48f6-8b94-cee9ef034ec1.png" width=800px > </div>
+
 
 
 
