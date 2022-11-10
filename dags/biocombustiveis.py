@@ -46,18 +46,28 @@ def tratamento_dados():
 
     # Tratamento das inconsistências, utilizando o pandas
     df.replace(["NaN", "nan", " ", "", "NAN", "NA"], pd.NA, inplace = True)
+
     return df
 
 # Salvando o dataset final em formato csv e parquet
 def exportacao_dados(**kwargs):
 
-  # Intercomunicação das tasks com XCOM (com Postgres)
+# Intercomunicação das tasks com XCOM (com Postgres)
     ti=kwargs['ti']
     df = ti.xcom_pull(task_ids='tratamento_dados')
 
-  # Conversão do dataset em arquivos csv e parquet
+# Conversão do dataset em arquivos csv e parquet
     df.to_csv('dadostratados/bioenergia.csv',index=False)
     df.to_parquet('dadostratados/bioenergia.parquet', index=False)
+
+# Salva o arquivo em cvs e parquet com a quatidade total de derivados por estado
+def soma_estado():
+  dfsoma_produto = pd.read_csv('dadostratados/bioenergia.csv', sep=',')
+  dfsoma_produto = dfsoma_produto.groupby(['Estado', 'Produto'])['Quantidade (m³)'].sum().reset_index()
+
+# Conversão do dataset em arquivos csv e parquet
+  dfsoma_produto.to_csv('dadostratados/estado_produto.csv',index=False)
+  dfsoma_produto.to_parquet('dadostratados/estado_produto.parquet', index=False)
 
 
 # Instanciando a DAG:
@@ -88,7 +98,12 @@ with DAG(
     python_callable = exportacao_dados
   )
 
+  soma_estado = PythonOperator(
+    task_id="soma_estado",
+    python_callable=soma_estado
+  )
+
   end = EmptyOperator(task_id='end')
 
 # Definição das Dependências
-chain(start, extrair_dados, tratamento_dados, exportacao_dados, end)
+chain(start, extrair_dados, tratamento_dados, exportacao_dados, soma_estado, end)
