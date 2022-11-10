@@ -45,7 +45,7 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 ## Estrutura da DAG
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200986085-78067add-2ce2-430a-bced-52e76d00c0c3.png" width=380px> </div>
+<img src="https://user-images.githubusercontent.com/83531935/200988779-e72c1585-0015-4c7c-ba71-88eca955bf55.png" width=800px> </div>
 
 - Import das bibliotecas necessárias;
 
@@ -102,6 +102,8 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 
 ## Dentro do Airflow
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/200983371-419d82ac-0cdd-4fee-be84-b94d03d844f9.png" width=800px > </div>
 
 
 
