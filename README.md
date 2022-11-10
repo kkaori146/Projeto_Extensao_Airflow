@@ -1,5 +1,8 @@
 # Projeto Final Extensão-Airflow
 
+<div align="left">
+<img src="https://user-images.githubusercontent.com/83531935/200970210-c026031f-0b57-4076-ad34-b7d75c824677.gif" width=700px > </div>
+
 ## Objetivo:
 
 - Criação de um projeto com Airflow, utilizando os conhecimentos adquiridos durante o curso de extensão de 15 dias oferecido pela SoulCode Academy.
