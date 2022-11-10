@@ -40,7 +40,6 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
  
-
 ## Estrutura da DAG
 
 - Import das bibliotecas necessárias;
@@ -51,27 +50,27 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 - Definição de alguns argumentos;
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200974685-d7a38dd9-16b0-4946-8a06-c894b9f5d655.gif" width=380px > </div>
 
 - A primeira função (extrair_dados), responsável por extrair os dados pela URL informada e guardar o dataset sem tratamento dentro da pasta dados_brutos
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200974682-5031ddb7-c1e6-411b-a456-35f388af7b51.gif" width=380px > </div>
 
 - A segunda função (tratamento_dados), responsável por ler e tratar os dados
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200974684-2cb6ad85-641a-486d-8076-aaa88ab7cada.gif" width=380px > </div>
 
 - A terceira função (exportacao_dados), converteu o dataset tratado em formato csv e parquet, os quais foram armazenados na pasta de dados_tratados
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200974681-a1a95a4c-8024-484c-885f-9695b0f9bae9.gif" width=380px > </div>
 
 - Instanciamento da DAG
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200974677-efcf731c-646b-43d0-b6c5-6ced308245a8.gif" width=380px > </div>
 
 - Definição das Tasks
 
@@ -81,6 +80,6 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 - Definição das Dependências
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200974686-0b928623-e89f-4f47-8b44-0b7a3e853c53.gif" width=380px > </div>
 
 
