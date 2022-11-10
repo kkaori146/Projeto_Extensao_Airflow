@@ -82,7 +82,7 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200979650-38e853c6-eb52-4f3b-82c4-82c8e50729a1.png" width=1000000px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201082630-600e36fc-6347-4cce-b3e3-ba8d0f3900c8.png" width=950x > </div>
 
 
 - A segunda função (tratamento_dados), responsável por ler e tratar os dados
