@@ -69,28 +69,28 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 
 - Import das bibliotecas necessárias;
 
-<br/>
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200978277-51073d0a-9266-4051-ab51-6581db362734.png" width=410px> </div>
- <br/>         
+ <br>         
  
 - Definição de alguns argumentos
 
-<br/>
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200974685-d7a38dd9-16b0-4946-8a06-c894b9f5d655.gif" width=360px > </div>
-<br/>
+<br>
                                                                                                                 
 - A primeira função (extrair_dados), responsável por extrair os dados pela URL informada e guardar o dataset sem tratamento dentro da pasta dados_brutos
 
-<br/>
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/201082630-600e36fc-6347-4cce-b3e3-ba8d0f3900c8.png" width=950x > </div>
-<br/>
+<br>
 
 - A segunda função (tratamento_dados), responsável por ler e tratar os dados
 
-<br/>
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/201083501-410f84df-37f4-4117-9428-8333bb4e1ca9.png" width=950px > </div>
 
@@ -98,70 +98,80 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 
 - A terceira função (exportacao_dados), converteu o dataset tratado em formato csv e parquet, os quais foram armazenados na pasta de dados_tratados
 
-<br/>
-<br/>
+<br>
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200974681-a1a95a4c-8024-484c-885f-9695b0f9bae9.gif" width=400px > </div>
-<br/>
+<br>
 
 - Instanciamento da DAG
 
-<br/>
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200974677-efcf731c-646b-43d0-b6c5-6ced308245a8.gif" width=240px > </div>
-<br/>
+<br>
 
 - Definição das Tasks
 
-<br/>
-<br/>
+<br>
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200975210-3cbdbe30-af6c-492c-8fde-68bab3b763e0.gif" width=340px > </div>
-<br/>
+<br>
 
 - Definição das Dependências
 
-<br/>
-<br/>
+<br>
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200974686-0b928623-e89f-4f47-8b44-0b7a3e853c53.gif" width=500px > </div>
-<br/>
+<br>
 
 ## Carregar o Airflow
 
-<br/>
+<br>
 
 - Comando para Inicialização rápida do Airflow
 
-<br/>
+<br>
 
 **_docker-compose up airflow-init_**
 
-<br/>
+<br>
 
 - Comando que agrega, cria e toma as modificações realizadas
-<br/>
+<br>
 
 **_docker-compose up_**
 
-<br/>
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200983371-419d82ac-0cdd-4fee-be84-b94d03d844f9.png" width=800px > </div>
-<br/>
+<br>
 
 ## Execução das Tasks
 
-<br/>
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200989438-29a8b688-9e4b-48e6-995b-a0d231beac4a.png" width=800px > </div>
-<br/>
+<br>
 
 ## Resultados
 
-<br/>
+<br>
+
+- Criação e armazenamento dados dados nos respectivos volumes:
+
+<br>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/201090570-c2c4b936-772c-48f6-8b94-cee9ef034ec1.png" width=800px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201091279-4f09e88a-45b9-4850-9a05-4be4116df305.png" width=400px > </div>
+
+<br>
+
+- Visão geral do dataset tratado gerado:
+
+
 
 
 
