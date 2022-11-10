@@ -1,8 +1,5 @@
 # Projeto Final Extensão-Airflow
-
-<div align="left">
-<img src="https://user-images.githubusercontent.com/83531935/200985753-cd457113-e248-4e38-be20-212e1db3069e.png" width=200px > </div>
-
+ 
 ## Objetivo:
 
 - Criação de um projeto com Airflow, utilizando os conhecimentos adquiridos durante o curso de extensão de 15 dias oferecido pela SoulCode Academy.
@@ -25,6 +22,9 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
     Exemplo: A utilização da Gordura de Boi é feita na produção de combustível para aviões. Algumas empresas como a KLM utiliza biocombustível produzido a partir de gordura de boi em alguns dos seus voos comerciais (atualmente mais de 190 voos).
 
 ## Estrutura do docker-compose.yaml
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/200985753-cd457113-e248-4e38-be20-212e1db3069e.png"" width=300px > </div>
+
 
 - Na parte de environment build do Airflow foi adicionado um comando para habilitar o uso do xcom:
 AIRFLOW__CORE__ENABLE_XCOM_PICKLING: 'true'
@@ -43,6 +43,9 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 <img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=350px > </div>
  
 ## Estrutura da DAG
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/200986085-78067add-2ce2-430a-bced-52e76d00c0c3.png" width=380px> </div>
 
 - Import das bibliotecas necessárias;
 
