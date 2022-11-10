@@ -69,7 +69,6 @@ def soma_estado():
   dfsoma_produto.to_csv('dadostratados/estado_produto.csv',index=False)
   dfsoma_produto.to_parquet('dadostratados/estado_produto.parquet', index=False)
 
-
 # Instanciando a DAG:
 with DAG(
     dag_id='biocombustiveis_dag',
