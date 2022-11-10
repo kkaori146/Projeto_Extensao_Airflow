@@ -1,8 +1,8 @@
 # Projeto Final Extensão-Airflow
+
 <div align='center'>
 <p float="right">
   <img src="https://user-images.githubusercontent.com/83531935/200994962-fcbedd70-d397-44d2-8369-15fe14ba6259.png" width="190" />
- 
   <img src="https://user-images.githubusercontent.com/83531935/200994945-fbe30288-68a4-433a-9d5b-37ffed81fabe.png" width="140" /> 
 </p></div>
 
@@ -44,20 +44,23 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <img src="https://user-images.githubusercontent.com/83531935/200985753-cd457113-e248-4e38-be20-212e1db3069e.png" width=300px > </div>
 
 - Na parte de environment build do Airflow foi adicionado um comando para habilitar o uso do xcom:
-AIRFLOW__CORE__ENABLE_XCOM_PICKLING: 'true'
+
+**AIRFLOW__CORE__ENABLE_XCOM_PICKLING: 'true'**
 
 - E um comando foi desabilitado no environment build do Airflow, para a não criação de exemplos, economizando assim recursos da máquina:
-AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+
+**AIRFLOW__CORE__LOAD_EXAMPLES: 'false'**
+
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200970210-c026031f-0b57-4076-ad34-b7d75c824677.gif" width=700px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200970210-c026031f-0b57-4076-ad34-b7d75c824677.gif" width=720px > </div>
 
 - Em volumes foi criado os volumes para armazenamento dos dados brutos e tratados:
     - ./dados_brutos:/opt/airflow/dadosbrutos
     - ./dados_tratados:/opt/airflow/dadostratados
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=350px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
  
 ## Estrutura da DAG
 
@@ -66,67 +69,119 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 
 - Import das bibliotecas necessárias;
 
+<br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200978277-51073d0a-9266-4051-ab51-6581db362734.png" width=380px> </div>
-          
+<img src="https://user-images.githubusercontent.com/83531935/200978277-51073d0a-9266-4051-ab51-6581db362734.png" width=410px> </div>
+ <br>         
+ 
 - Definição de alguns argumentos
 
+<br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200974685-d7a38dd9-16b0-4946-8a06-c894b9f5d655.gif" width=340px > </div>
-
+<img src="https://user-images.githubusercontent.com/83531935/200974685-d7a38dd9-16b0-4946-8a06-c894b9f5d655.gif" width=360px > </div>
+<br>
                                                                                                                 
 - A primeira função (extrair_dados), responsável por extrair os dados pela URL informada e guardar o dataset sem tratamento dentro da pasta dados_brutos
 
-
+<br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200979650-38e853c6-eb52-4f3b-82c4-82c8e50729a1.png" width=1000000px > </div>
-
+<img src="https://user-images.githubusercontent.com/83531935/201082630-600e36fc-6347-4cce-b3e3-ba8d0f3900c8.png" width=950x > </div>
+<br>
 
 - A segunda função (tratamento_dados), responsável por ler e tratar os dados
 
-
+<br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200974684-2cb6ad85-641a-486d-8076-aaa88ab7cada.gif" width=900px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201083501-410f84df-37f4-4117-9428-8333bb4e1ca9.png" width=950px > </div>
 
+<br/>
 
 - A terceira função (exportacao_dados), converteu o dataset tratado em formato csv e parquet, os quais foram armazenados na pasta de dados_tratados
 
-
+<br>
+<br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200974681-a1a95a4c-8024-484c-885f-9695b0f9bae9.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201094177-8e400350-d82f-4eea-8e96-7c60d9b11de9.png" width=500px > </div>
+<br>
 
 - Instanciamento da DAG
 
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200974677-efcf731c-646b-43d0-b6c5-6ced308245a8.gif" width=240px > </div>
+<br>
 
 - Definição das Tasks
 
+<br>
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200975210-3cbdbe30-af6c-492c-8fde-68bab3b763e0.gif" width=340px > </div>
+<br>
 
 - Definição das Dependências
 
+<br>
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200974686-0b928623-e89f-4f47-8b44-0b7a3e853c53.gif" width=500px > </div>
+<br>
 
 ## Carregar o Airflow
 
+<br>
+
 - Comando para Inicialização rápida do Airflow
+
+<br>
 
 **_docker-compose up airflow-init_**
 
-- Comando que agrega, cria e toma as modificações realizadas
+<br>
+
+- Comando que agrega, cria e implementa as modificações realizadas
+<br>
 
 **_docker-compose up_**
 
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200983371-419d82ac-0cdd-4fee-be84-b94d03d844f9.png" width=800px > </div>
+<br>
 
 ## Execução das Tasks
 
+<br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200989438-29a8b688-9e4b-48e6-995b-a0d231beac4a.png" width=800px > </div>
+<br>
+
+## Resultados
+
+<br>
+
+- Criação e armazenamento dados dados nos respectivos volumes:
+
+<br>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/201091279-4f09e88a-45b9-4850-9a05-4be4116df305.png" width=400px > </div>
+
+<br>
+
+- Visão geral do dataset tratado gerado:
+
+<br>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/201094187-0b0de294-282d-46aa-85b6-7562b90bff56.png" width=1500px > </div>
+
+<br>
+
+
+
+
+
 
 
 
