@@ -21,7 +21,6 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 - Derivados como Óleo de Milho, Palma, Soja, Gordura Bovina que podem ser utilizados na produção e na pesquisa de formas de síntese de biocombustíveis (biodiesel).
     Exemplo: A utilização da Gordura de Boi é feita na produção de combustível para aviões. Algumas empresas como a KLM utiliza biocombustível produzido a partir de gordura de boi em alguns dos seus voos comerciais (atualmente mais de 190 voos).
 
-
 ## Estrutura do docker-compose.yaml
 
 - Na parte de environment build do Airflow foi adicionado um comando para habilitar o uso do xcom:
@@ -38,14 +37,14 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     - ./dados_tratados:/opt/airflow/dadostratados
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=360px > </div>
  
 ## Estrutura da DAG
 
 - Import das bibliotecas necessárias;
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200975245-7d061f5f-e677-4255-9248-33b845e48d86.gif width=340px ></div>
 
 - Definição de alguns argumentos;
 
@@ -75,7 +74,7 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 - Definição das Tasks
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200975210-3cbdbe30-af6c-492c-8fde-68bab3b763e0.gif" width=380px > </div>
 
 - Definição das Dependências
 
