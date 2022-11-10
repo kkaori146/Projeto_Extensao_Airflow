@@ -20,11 +20,14 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 
 - Derivados como Óleo de Milho, Palma, Soja, Gordura Bovina que podem ser utilizados na produção e na pesquisa de formas de síntese de biocombustíveis (biodiesel).
     Exemplo: A utilização da Gordura de Boi é feita na produção de combustível para aviões. Algumas empresas como a KLM utiliza biocombustível produzido a partir de gordura de boi em alguns dos seus voos comerciais (atualmente mais de 190 voos).
+    
+## Ferramenta de Apoio
+
 
 ## Estrutura do docker-compose.yaml
+
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200985753-cd457113-e248-4e38-be20-212e1db3069e.png"" width=300px > </div>
-
 
 - Na parte de environment build do Airflow foi adicionado um comando para habilitar o uso do xcom:
 AIRFLOW__CORE__ENABLE_XCOM_PICKLING: 'true'
@@ -56,18 +59,24 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200974685-d7a38dd9-16b0-4946-8a06-c894b9f5d655.gif" width=340px > </div>
+
                                                                                                                 
 - A primeira função (extrair_dados), responsável por extrair os dados pela URL informada e guardar o dataset sem tratamento dentro da pasta dados_brutos
+
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200979650-38e853c6-eb52-4f3b-82c4-82c8e50729a1.png" width=1000000px > </div>
 
+
 - A segunda função (tratamento_dados), responsável por ler e tratar os dados
+
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200974684-2cb6ad85-641a-486d-8076-aaa88ab7cada.gif" width=900px > </div>
 
+
 - A terceira função (exportacao_dados), converteu o dataset tratado em formato csv e parquet, os quais foram armazenados na pasta de dados_tratados
+
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200974681-a1a95a4c-8024-484c-885f-9695b0f9bae9.gif" width=380px > </div>
@@ -100,10 +109,10 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/200983371-419d82ac-0cdd-4fee-be84-b94d03d844f9.png" width=800px > </div>
 
-## Dentro do Airflow
+## Execução das Tasks
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200983371-419d82ac-0cdd-4fee-be84-b94d03d844f9.png" width=800px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200989438-29a8b688-9e4b-48e6-995b-a0d231beac4a.png" width=800px > </div>
 
 
 
