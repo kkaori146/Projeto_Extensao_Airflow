@@ -48,7 +48,6 @@ def tratamento_dados():
     df.replace(["NaN", "nan", " ", "", "NAN", "NA"], pd.NA, inplace = True)
     return df
 
-
 # Salvando o dataset final em formato csv e parquet
 def exportacao_dados(**kwargs):
 
@@ -61,7 +60,7 @@ def exportacao_dados(**kwargs):
     df.to_parquet('dadostratados/bioenergia.parquet')
 
 
-#Criando a DAG:
+# Instanciar a DAG:
 with DAG(
     dag_id='biocombustiveis_dag',
     start_date = days_ago(1),
@@ -70,6 +69,7 @@ with DAG(
     catchup=True,
     max_active_runs=2) as dag:
 
+# Definição das Tasks
   start = EmptyOperator(task_id='Start')
 
   extrair_dados = PythonOperator(
@@ -90,5 +90,5 @@ with DAG(
 
   end = EmptyOperator(task_id='end')
 
-  
+# Definição das Dependências
 chain(start, extrair_dados, tratamento_dados, exportacao_dados, end)
