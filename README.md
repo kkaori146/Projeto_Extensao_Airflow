@@ -104,6 +104,16 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <img src="https://user-images.githubusercontent.com/83531935/201094177-8e400350-d82f-4eea-8e96-7c60d9b11de9.png" width=550px > </div>
 <br>
 
+- A quarta função (soma_estado), retorna a quantidade total de produtos pelo estado
+
+
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/201169789-9d448bdc-bb7a-4539-967f-695d3a77125e.png" width=550px > </div>
+<br>
+
+
 - Instanciamento da DAG
 
 <br>
@@ -116,7 +126,7 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <br>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200975210-3cbdbe30-af6c-492c-8fde-68bab3b763e0.gif" width=340px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201169792-72cdbe3a-d221-476d-944a-4a5f9e86cab0.png" width=340px > </div>
 <br>
 
 - Definição das Dependências
@@ -124,7 +134,7 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <br>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200974686-0b928623-e89f-4f47-8b44-0b7a3e853c53.gif" width=560px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201169796-bec7e7fd-a579-44f6-9ef5-6f6eac31bd6a.png" width=560px > </div>
 <br>
 
 ## Carregar o Airflow
@@ -153,7 +163,7 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200989438-29a8b688-9e4b-48e6-995b-a0d231beac4a.png" width=800px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201169819-f6a0bdcf-ae5f-4413-a68e-c9b609b42413.png)" width=800px > </div>
 <br>
 
 ## Resultados
@@ -165,7 +175,7 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <br>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/201091279-4f09e88a-45b9-4850-9a05-4be4116df305.png" width=400px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201169800-2b41452e-88b3-487e-abb2-f843e793fb7e.png" width=400px > </div>
 
 <br>
 
@@ -175,6 +185,16 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/201094187-0b0de294-282d-46aa-85b6-7562b90bff56.png" width=1500px > </div>
+
+<br>
+
+- Visão geral do dataset tratado com dados de produto, estado e quantidade total 
+
+
+<br>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/201169782-0ec887e1-8116-4c17-8ee6-f9aabd6389c9.png" width=1500px > </div>
 
 <br>
 
