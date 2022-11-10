@@ -1,9 +1,10 @@
 # Projeto Final Extensão-Airflow
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/83531935/200994478-52f2d570-acc6-4b24-8b95-622b39f3d4ab.png" width="100" />
-  <img src="https://user-images.githubusercontent.com/83531935/200994478-52f2d570-acc6-4b24-8b95-622b39f3d4ab.png"" width="100" /> 
-</p>
-
+<div align='center'>
+<p float="right">
+  <img src="https://user-images.githubusercontent.com/83531935/200994962-fcbedd70-d397-44d2-8369-15fe14ba6259.png" width="190" />
+ 
+  <img src="https://user-images.githubusercontent.com/83531935/200994945-fbe30288-68a4-433a-9d5b-37ffed81fabe.png" width="140" /> 
+</p></div>
 
 ## Informações Gerais:
 
