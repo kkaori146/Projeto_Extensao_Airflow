@@ -60,7 +60,7 @@ def exportacao_dados(**kwargs):
     df.to_parquet('dadostratados/bioenergia.parquet')
 
 
-# Instanciar a DAG:
+# Instanciando a DAG:
 with DAG(
     dag_id='biocombustiveis_dag',
     start_date = days_ago(1),
