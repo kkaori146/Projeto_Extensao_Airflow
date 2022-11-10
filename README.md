@@ -36,15 +36,51 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 - Em volumes foi criado os volumes para armazenamento dos dados brutos e tratados:
     - ./dados_brutos:/opt/airflow/dadosbrutos
     - ./dados_tratados:/opt/airflow/dadostratados
-   
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+ 
 
 ## Estrutura da DAG
-<hr>
-- Inicialmente foi feito o import das bibliotecas necessárias;
-- Foi estabelecido um default_args com alguns argumentos;
-- A primeira função (extrair_dados), foi responsável por extrair os dados pela URL informada e guardar o dataset sem tratamento dentro da pasta dados_brutos;
-- A segunda função (tratamento_dados), foi responsável por ler e tratar os dados
+
+- Import das bibliotecas necessárias;
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+
+- Definição de alguns argumentos;
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+
+- A primeira função (extrair_dados), responsável por extrair os dados pela URL informada e guardar o dataset sem tratamento dentro da pasta dados_brutos
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+
+- A segunda função (tratamento_dados), responsável por ler e tratar os dados
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+
 - A terceira função (exportacao_dados), converteu o dataset tratado em formato csv e parquet, os quais foram armazenados na pasta de dados_tratados
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+
+- Instanciamento da DAG
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+
+- Definição das Tasks
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
+
+- Definição das Dependências
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
 
 
