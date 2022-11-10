@@ -56,8 +56,8 @@ def exportacao_dados(**kwargs):
     df = ti.xcom_pull(task_ids='tratamento_dados')
 
   # Conversão do dataset em arquivos csv e parquet
-    df.to_csv('dadostratados/bioenergia.csv')
-    df.to_parquet('dadostratados/bioenergia.parquet')
+    df.to_csv('dadostratados/bioenergia.csv',index=False)
+    df.to_parquet('dadostratados/bioenergia.parquet', index=False)
 
 
 # Instanciando a DAG:
