@@ -91,6 +91,9 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 
 **_docker-compose up_**
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/200983371-419d82ac-0cdd-4fee-be84-b94d03d844f9.png" width=800px > </div>
+
 ## Dentro do Airflow
 
 
