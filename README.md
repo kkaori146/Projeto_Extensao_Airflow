@@ -37,24 +37,24 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     - ./dados_tratados:/opt/airflow/dadostratados
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=360px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=350px > </div>
  
 ## Estrutura da DAG
 
 - Import das bibliotecas necessárias;
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200978277-51073d0a-9266-4051-ab51-6581db362734.png width=340px ></div>
-
-- Definição de alguns argumentos;
+<img src="https://user-images.githubusercontent.com/83531935/200978277-51073d0a-9266-4051-ab51-6581db362734.png" width=360px> </div>
+          
+- Definição de alguns argumentos
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200974685-d7a38dd9-16b0-4946-8a06-c894b9f5d655.gif" width=380px > </div>
-
+<img src="https://user-images.githubusercontent.com/83531935/200974685-d7a38dd9-16b0-4946-8a06-c894b9f5d655.gif" width=340px > </div>
+                                                                                                                
 - A primeira função (extrair_dados), responsável por extrair os dados pela URL informada e guardar o dataset sem tratamento dentro da pasta dados_brutos
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200974682-5031ddb7-c1e6-411b-a456-35f388af7b51.gif" width=380px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200974682-5031ddb7-c1e6-411b-a456-35f388af7b51.gif" width=90000px > </div>
 
 - A segunda função (tratamento_dados), responsável por ler e tratar os dados
 
