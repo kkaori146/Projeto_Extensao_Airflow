@@ -1,8 +1,8 @@
 # Projeto Final Extensão-Airflow
+
 <div align='center'>
 <p float="right">
   <img src="https://user-images.githubusercontent.com/83531935/200994962-fcbedd70-d397-44d2-8369-15fe14ba6259.png" width="190" />
- 
   <img src="https://user-images.githubusercontent.com/83531935/200994945-fbe30288-68a4-433a-9d5b-37ffed81fabe.png" width="140" /> 
 </p></div>
 
@@ -44,20 +44,23 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <img src="https://user-images.githubusercontent.com/83531935/200985753-cd457113-e248-4e38-be20-212e1db3069e.png" width=300px > </div>
 
 - Na parte de environment build do Airflow foi adicionado um comando para habilitar o uso do xcom:
-AIRFLOW__CORE__ENABLE_XCOM_PICKLING: 'true'
+
+**AIRFLOW__CORE__ENABLE_XCOM_PICKLING: 'true'**
 
 - E um comando foi desabilitado no environment build do Airflow, para a não criação de exemplos, economizando assim recursos da máquina:
-AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+
+**AIRFLOW__CORE__LOAD_EXAMPLES: 'false'**
+
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200970210-c026031f-0b57-4076-ad34-b7d75c824677.gif" width=700px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200970210-c026031f-0b57-4076-ad34-b7d75c824677.gif" width=720px > </div>
 
 - Em volumes foi criado os volumes para armazenamento dos dados brutos e tratados:
     - ./dados_brutos:/opt/airflow/dadosbrutos
     - ./dados_tratados:/opt/airflow/dadostratados
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=350px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200970950-441d2825-0f50-41b8-8885-44759feccf7b.gif" width=380px > </div>
  
 ## Estrutura da DAG
 
@@ -67,12 +70,12 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 - Import das bibliotecas necessárias;
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200978277-51073d0a-9266-4051-ab51-6581db362734.png" width=380px> </div>
+<img src="https://user-images.githubusercontent.com/83531935/200978277-51073d0a-9266-4051-ab51-6581db362734.png" width=410px> </div>
           
 - Definição de alguns argumentos
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200974685-d7a38dd9-16b0-4946-8a06-c894b9f5d655.gif" width=340px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200974685-d7a38dd9-16b0-4946-8a06-c894b9f5d655.gif" width=360px > </div>
 
                                                                                                                 
 - A primeira função (extrair_dados), responsável por extrair os dados pela URL informada e guardar o dataset sem tratamento dentro da pasta dados_brutos
