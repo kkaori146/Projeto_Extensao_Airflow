@@ -91,5 +91,9 @@ AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
 
 **_docker-compose up_**
 
+## Dentro do Airflow
+
+
+
 
 
