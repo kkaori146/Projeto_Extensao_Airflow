@@ -101,7 +101,7 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <br>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200974681-a1a95a4c-8024-484c-885f-9695b0f9bae9.gif" width=400px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/201094177-8e400350-d82f-4eea-8e96-7c60d9b11de9.png" width=500px > </div>
 <br>
 
 - Instanciamento da DAG
@@ -139,7 +139,7 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 
 <br>
 
-- Comando que agrega, cria e toma as modificações realizadas
+- Comando que agrega, cria e implementa as modificações realizadas
 <br>
 
 **_docker-compose up_**
@@ -170,6 +170,14 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
 <br>
 
 - Visão geral do dataset tratado gerado:
+
+<br>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/201094187-0b0de294-282d-46aa-85b6-7562b90bff56.png" width=1500px > </div>
+
+<br>
+
 
 
 
