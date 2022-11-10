@@ -23,11 +23,14 @@ https://news.klm.com/klm-further-expands-approach-for-sustainable-aviation-fuel/
     
 ## Ferramenta de Apoio
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83531935/200990110-1c050634-3048-4634-af85-6d2bf7599bc7.png" width=300px > </div>
+
 
 ## Estrutura do docker-compose.yaml
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/83531935/200985753-cd457113-e248-4e38-be20-212e1db3069e.png"" width=300px > </div>
+<img src="https://user-images.githubusercontent.com/83531935/200985753-cd457113-e248-4e38-be20-212e1db3069e.png" width=300px > </div>
 
 - Na parte de environment build do Airflow foi adicionado um comando para habilitar o uso do xcom:
 AIRFLOW__CORE__ENABLE_XCOM_PICKLING: 'true'
